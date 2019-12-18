@@ -1,58 +1,24 @@
-# Santas Sack Fun Interactive Websites
+# About
 
-This Project is to Desgin & Make a fun interactive Santas Sack for kids to ask Sanata what they want from Christmas
+## Santa's Sack - a fun and interactive website
 
-## About
+This Project is designed to create a fun and interactive website for kids to tell Santa what they want for Christmas. Eventually it will also include a functionality for parents (aka the real Santa) to see their child/children's Christmas wishlist at a glance, making it easier for them to decide on the shopping list.
 
-Team Crackers Santa Sack Interactive Website is a tool parants can use to help them find out what there kids want from Christmas. It will need the requirment from some fun gaming for kids to enjoy throght out the year.
+Parents will be able to log in to the website and see what their children's Christmas wishlists are, and each selected item will have a link that directs them to the relevant shopping website for immediate online purchase.
 
-The parent will at a convent time be able to login to the website run orders for all or part of the items in the child has selected. There will be an option for other family member to be able to login & see what the child has requested & run orders for items.
+## Features
 
-### Features
+* A stunning Santa's Christmas ranch as backdrop, and Christmas jingles to create a Christmas-y atmosphere
+* Countdown timer to Christmas
+* Ability to create wishlist tied to each child's name, making it easier for parents at a later stage
+* Bestsellers and recommendations based on the selected category for the kids
+* Navigation will be easy and intuitive for children, and information will be sorted and made visible only to parents, in order to maintain the "Santa" fantasy for their children
 
-* A stuning desgined Santas christmas ranch
-* The ablility for Kids to get the full range of toys that santa can bring
-* Sound Promps to make it easier for Children to navigate around the site 
-* There will be different login Users 
-            * Children
-            * Parents
-            * Family Memebers
-            * Suppliers
-
-## Getting Started
-To make this Website run you will need common coding understanding & browser functional
-
-## Prerequisites
-
-You will need to install any well know browser.
-
-```
-https://www.google.com.au/chrome/?brand=CHBD&gclid=Cj0KCQiA0NfvBRCVARIsAO4930niADxa9PDuwO1wDo4KvQjzvCIPFQzo6MlzYFP_YqYAh6RR8MkRww8aAihwEALw_wcB&gclsrc=aw.ds
-```
-
-### Installing
-
-Step One 
-
-Git Glone the Repositories to your computer
-
-```
-https://github.com/leonghh/Bootcamp-Project-1.git
-```
-
-Then Load the html File
-
-```
-homepageindex.html
-```
+## Tools used
+HTML, Materialize CSS, Javascript, jQuery, AJAX for third party API calls.
 
 ## Running the demo 
-
-Run the website locally with local storage to hold what was selected
-
-### Run a test child
-
-Make the child enter the name & age to open the window for the child to select a group of items & Categoires 
+** Steps and screenshots **
 
 ## Built With
 
@@ -75,6 +41,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Christmas CountDown Code **EUGENE TO COMPLETE
+* 
 * 
 * 
