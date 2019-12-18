@@ -63,10 +63,10 @@ function calculateChristmasCountdown(){
     }
  
     //Add our counts to their corresponding HTML elements.
-    document.getElementById('days').innerHTML = days;
-    document.getElementById('hours').innerHTML = hours;
-    document.getElementById('minutes').innerHTML = minutes;
-    document.getElementById('seconds').innerHTML = seconds;
+    $("#days").text(days);
+    $("#hours").text(hours);
+    $("#minutes").text(minutes);
+    $("#seconds").text(seconds);
  
     //Recursive call after 1 second using setTimeout
     setTimeout(calculateChristmasCountdown, 1000);
