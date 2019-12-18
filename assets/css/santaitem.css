@@ -1,0 +1,42 @@
+* {
+    background-image: url(/assets/images/vintage-santa-clip-art-830x950.png) white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 100;
+}
+
+.iwantthisbox {
+background-color: #b44;
+color: whitesmoke;
+font-weight: 500;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 5px;
+margin: 0 10px 10px 10px;
+border-radius: 10px;
+border-color: #b44444;
+}
+
+.santaitemproductname {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.santaitemproductcaption {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #404040;
+    max-width: 400px;
+    padding: 0 10px 10px 10px;
+
+}
+
+.santaitemproductimage {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
