@@ -1,9 +1,10 @@
-* {
-    background-image: url(/assets/images/vintage-santa-clip-art-830x950.png) white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 100;
+body {
+background: url(../images/SantasSack.Reindeer.png);
+background-repeat: no-repeat;
+background-size: 1100px 600px;
+background-attachment: fixed;
+background-position: -380px 350px;
+z-index: 100;
 }
 
 .iwantthisbox {
@@ -18,12 +19,14 @@ border-radius: 10px;
 border-color: #b44444;
 }
 
+
 .santaitemproductname {
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333333;
     max-width: 400px;
     padding: 10px;
+    border-radius: 30px;
 }
 
 .santaitemproductcaption {
@@ -32,11 +35,18 @@ border-color: #b44444;
     color: #404040;
     max-width: 400px;
     padding: 0 10px 10px 10px;
-
+    border-radius: 30px;
 }
 
 .santaitemproductimage {
-    height: 200px;
+    height: 300px;
     width: auto;
     padding: 10px;
+    border-radius: 50px;
+
+}
+
+.santaSackLet {
+    background-position: 700px 350px;
+    background-size: 200px 300px;
 }
