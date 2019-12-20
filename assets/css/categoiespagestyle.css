@@ -3,21 +3,67 @@ html {
 }
 
 
-main {
+body {
     
     background-image: url(../img/SantasSack.SantaLand.png);
-    background-size:     100%;                     
+    background-size:     cover;                     
     background-repeat:   no-repeat;
-    height: 100%;
+    height: ;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    
 }
 
 .card-body {
     background-color: #ffffff;
-    border: 20px;
+    border: 30px;
     margin: 10px;
+    
     align-content: center;
-
 }
+
+main {
+    flex: 1 0 auto;
+}
+
+#santaSackLet {
+    z-index: 100;
+}
+
+.Games-PuzzlesCards {
+    border: 30px;
+    margin: 10px;
+}
+
+.KidsElectronics {
+    border: 30px;
+    margin: 10px;
+}
+
+.ElectricScootersBikes-Boards {
+    border: 30px;
+    margin: 10px;
+}
+
+.PretendPlay-DressUp {
+    border: 30px;
+    margin: 10px;
+}
+
+.ActionFigures {
+    border: 30px;
+    margin: 10px;
+}
+
+.Games-PuzzlesCards {
+    border: 30px;
+    margin: 10px;
+}
+
+
+footer {
+    z-index: 3000;
+}
+
+      
