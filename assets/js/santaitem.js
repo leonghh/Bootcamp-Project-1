@@ -5,19 +5,25 @@ $(document).ready(function () {
   // var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
   // animal + "&api_key=Zi5gCWq3TCGhqs5xR5aK2hU3&limit=20";
 
-  var queryURL = "https://api.bestbuy.com/v1/products((search=action&search=figure))?apiKey=Zi5gCWq3TCGhqs5xR5aK2hU3&sort=image.asc&show=image,name,sku,thumbnailImage,description,shortDescription,url&pageSize=15&format=json"
+  var keyword = $(".testcategory").attr("id");
+  console.log(keyword);
+
+  var queryURL = "https://api.bestbuy.com/v1/products((search=" + keyword + "))?apiKey=Zi5gCWq3TCGhqs5xR5aK2hU3&sort=image.asc&show=image,name,sku,thumbnailImage,description,shortDescription,categoryPath.id,url&pageSize=15&format=json"
+  console.log(queryURL);
 
   var santaItemList = [];
 
 
-  $(".test").on("click", function () {
+  $(".testcategory").on("click", function () {
+    localStorage.setItem("queryURL", queryURL);
+    var getQueryURL = localStorage.getItem("queryURL");
     $.ajax({
-      url: queryURL,
+      url: getQueryURL,
       method: "GET"
     })
       // After data comes back from the request
       .then(function (response) {
-        console.log(queryURL);
+        console.log(getQueryURL);
         console.log(response);
 
         // storing the data from the AJAX request in the results variable
