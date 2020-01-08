@@ -117,8 +117,29 @@ z-index: 400;
     background-position: -380px 270px;
     z-index: 100;
     }
+
+.sendToSantaModal {
+    position: fixed;
+    top: 50px;
+    left: 370px;
+    z-index: 7000;
+    background-color: #e6f2ff;
+    width: 500px;
+    height: 500px;
+    border-color: teal;
+    border-radius: 5px;
+
+
+}
+
+.santaListCompleteBtn {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+
     
-    .iwantthisbox {
+    /* .iwantthisbox {
     background-color: #b44;
     color: whitesmoke;
     font-weight: 500;
@@ -128,9 +149,9 @@ z-index: 400;
     margin: 0 10px 10px 10px;
     border-radius: 10px;
     border-color: #b44444;
-    }
+    } */
     
-    
+/*     
     .santaitemproductname {
         font-size: 18px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -160,9 +181,9 @@ z-index: 400;
     .santaSackLet {
         background-position: 700px 350px;
         background-size: 200px 300px;
-    }
+    } */
     
-    .footer {
+    /* .footer {
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -182,7 +203,7 @@ z-index: 400;
         background-color: #212529;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 16px;
-    }
+    } */
     
     /* Contact Page */
     

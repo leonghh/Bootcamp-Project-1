@@ -1,5 +1,38 @@
 $(document).ready(function () {
 
+    $(".sendToSantaBtn").on("click", function() {
+      event.preventDefault();
+      $(".selectedItemList").empty();
+      var SKUList = "5775501"
+      var SKUItemURL = "https://api.bestbuy.com/v1/products(sku=" + SKUList + ")?apiKey=Zi5gCWq3TCGhqs5xR5aK2hU3&sort=name.asc&show=longDescription,name,shortDescription,sku,image,description&format=json"
+      console.log(SKUItemURL);
+
+      $.ajax({
+        url: SKUItemURL,
+        method: "GET"
+      })
+        .then(function (response) {
+          console.log("working");
+          $(".sendToSantaModal").attr("class", "sendToSantaModal show");
+          var productDiv = $("<div class='col s6'>");
+          var productName = $("<h6 class='santaitemproductname'>");
+          var productImage = $("<img class='responsive-img santaitemproductimage'>");
+          console.log(response)
+          productImage.attr("src", response.products[0].image);
+          productName.text(response.products[0].name);
+
+          $(".selectedItemList").append(productDiv);
+          productDiv.append(productImage);
+          productDiv.append(productName);
+
+        });
+    });
+
+    $(".santaListCompleteBtn").on("click", function() {
+      window.location.href="homepageindex.html"
+    });
+
+
     var bestQueryURL = "https://api.bestbuy.com/v1/products(bestSellingRank<100&type=game)?apiKey=Zi5gCWq3TCGhqs5xR5aK2hU3&sort=bestSellingRank.asc&show=bestSellingRank,description,image,longDescription,shortDescription,thumbnailImage,sku,categoryPath.id,name&format=json"
     console.log(bestQueryURL);
 

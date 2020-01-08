@@ -8,10 +8,11 @@
 
     <!-- Compiled and minified Materialize CSS / Javsscript -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script defer src="./assets/js/santaselect.js"></script>
-    <script defer src="./assets/js/santaitem.js"></script>
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Our own CSS-->
@@ -96,7 +97,7 @@ font-family: 'Courgette', cursive;
     </section>
     <section id="santaitemproductitem" class="hide">
         <div class="santaitemproductimagesection">
-            <!-- <button class="test">Test</button> -->
+
             <div class="container">
                 <div class="row santaitemimagediv">
                 </div>
@@ -104,13 +105,6 @@ font-family: 'Courgette', cursive;
         </div>
     </section>
 
-    <div class="fixed-action-btn">
-        <img class="santaSackLet" img src="./assets/images/SantasSack.SANTA.BIG2.SendtoSanta.png" width="250"
-            alt="Santa" srcset="">
-        <i class="large material-icons santaSackLetbutton"></i>
-        </a>
-    </div>
-
     <div class="form-group">
         &nbsp;
     </div>
@@ -149,6 +143,31 @@ font-family: 'Courgette', cursive;
 
     <div class="form-group">
         &nbsp;
+    </div>
+
+
+    <div class="container">
+
+        <!-- Modal Trigger -->
+        <div class="sendToSantaBtn fixed-action-btn">
+            <a class="modal-trigger" href=".sendToSantaModal">
+                <img class="santaSackLet" src="./assets/images/SantasSack.SANTA.BIG2.SendtoSanta.png" alt="" width="250" alt="Santa" srcset="">
+            </a>
+        </div>
+
+        <!-- Modal Structure -->
+        <div class="sendToSantaModal hide">
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">&times;</a>
+            </div>
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row selectedItemList">
+                    </div>
+                    <a class="santaListCompleteBtn waves-effect waves-light btn">Send</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 
