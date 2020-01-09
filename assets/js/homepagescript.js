@@ -9,7 +9,7 @@ $("#goBtn").on("click", function() {
     }
     else {
         console.log("also working");
-        // window.location.href="selectpageindex.html"
+        window.location.href="santaselect.html"
     }
     
 });

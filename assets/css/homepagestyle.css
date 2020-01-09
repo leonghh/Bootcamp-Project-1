@@ -3,20 +3,22 @@ html {
 }
 
 body {
-    background-image: url(../img/tempbackground.jpg);
-    background-size:     cover;                     
+    background-color: #de3f1f;
+    background-image:    url(../images/SantasSack.SantaLand.png);
+    background-size:     cover;
     background-repeat:   no-repeat;
-    height: 100%;
+    background-position: center center;
 }
 
 #countdownTimer {
     height: 70px;
     width: fit-content;
-    border: 1px solid red;
+    border: 2px solid rgb(58, 134, 100);
     padding: 5px;
-    background-color: red;
+    background-color: #3D9970;
     font-size: 18px;
     color: #ffffff;
+    border-radius: 3px;
 }
 
 .inline {
@@ -38,14 +40,16 @@ body {
 }
 
 #startBtn {
-    border-radius: 50%;
+    background-color: #3D9970;
     height: 250px;
-    width: 320px;
+    width: 250px;
     position: relative;
     top: 300px;
     line-height: 250px;
-    font-weight: bold;
     font-size: 50px;
+    border: 3px solid rgb(58, 134, 100);
+    color: #ffffff;
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 #questionContainer {
@@ -53,14 +57,14 @@ body {
     text-align: center;
     position: relative;
     top: 200px;
-    background-color: green;
+    background-color: #3D9970;
     padding: 10px;
 }
 
 p {
     color: silver;
     text-align: left;
-    font-weight: bold;
+    font-weight: 800px;
     font-size: 24px;
 }
 
