@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/homepagestyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script defer src="./assets/js/homepagescript.js"></script>
+  <title>Santa's List</title>
+</head>
+
+<body>
+  <!-- Countdown Timer -->
+  <div class="container">
+      <div id="countdownTimer" class="row">
+        <div class="inline"> 
+          <span id="days" class="timeFont"></span>
+          <br> 
+          DAYS
+        </div>
+        <div class="inline">
+          <span id="hours" class="timeFont"></span>
+          <br>
+          HRS
+        </div>
+        <div class="inline">
+          <span id="minutes" class="timeFont"></span>
+          <br>
+          MIN
+        </div>
+        <div class="inline">
+          <span id="seconds" class="timeFont"></span>
+          <br>
+          SEC
+        </div> 
+      </div>
+  </div>
+
+  <!-- Start Button -->
+  <div id="startContainer" class="container">
+    <a id="startBtn" class="waves-effect waves-light btn-floating btn-large">Start</a>
+  </div>
+
+  <div></div>
+
+  
+  <!-- Question Container -->
+  <div id="questionContainer" class="container">
+    <div class="row">
+      <div class="input-field col s12">
+        <p>What is your name?</p>
+        <br>
+        <input placeholder="" id="userName" type="text" class="validate">
+      </div>
+      <div class="btnRight input-field col s12">
+        <p>What is your age?</p>
+        <br>
+        <input id="userAge" type="text" class="validate">
+        <a id="goBtn" class="waves-effect waves-light btn-large">Go</a>
+      </div>
+    </div>
+
+    <!-- No Name Alert -->
+    <div id="noNameModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="noNameCloseBtn">&times;</span>
+        <p>Please type in your name.</p>
+      </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
