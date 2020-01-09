@@ -118,11 +118,7 @@ z-index: 400;
     z-index: 100;
     }
 
-.sendToSantaModal {
-    position: fixed;
-    top: 50px;
-    left: 370px;
-    z-index: 7000;
+.modal {
     background-color: #e6f2ff;
     width: 500px;
     height: 500px;
