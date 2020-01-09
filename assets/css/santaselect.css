@@ -119,14 +119,13 @@ z-index: 400;
     }
 
 .modal {
-    background-color: #e6f2ff;
     width: 500px;
     height: 500px;
     border-color: teal;
     border-radius: 5px;
-
-
 }
+
+
 
 .santaListCompleteBtn {
     position: absolute;
