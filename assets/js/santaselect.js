@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 
     $(".santaListCompleteBtn").on("click", function() {
-      window.location.href="homepageindex.html"
+      window.location.href="index.html"
     });
 
 
