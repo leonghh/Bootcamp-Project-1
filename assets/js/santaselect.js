@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  $('#sendToSantaModal').modal();
+
     $(".sendToSantaBtn").on("click", function() {
       event.preventDefault();
       $(".selectedItemList").empty();
