@@ -1,3 +1,5 @@
+Site Link: https://leonghh.github.io/Bootcamp-Project-1/index.html
+
 About
 Santa's Sack - a fun and interactive website
 This Project is designed to create a fun and interactive website for kids to tell Santa what they want for Christmas. Eventually it will also include a functionality for parents (aka the real Santa) to see their child/children's Christmas wishlist at a glance, making it easier for them to decide on the shopping list.
